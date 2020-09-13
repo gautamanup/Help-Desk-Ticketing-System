@@ -9,7 +9,7 @@
 
 </head>
 
-<body style="background-color:lavenderblush;" onload="init()">
+<body style="background-color:#C3C83D;" onload="init()">
 
         <div class="container">
             <a href="index.html"><img src="images/happy_logo.png" alt="Happy Help Desk"/></a>
@@ -19,7 +19,7 @@
 
 
                 </div>
-                <div class="jumbotron col-sm-6" style="background-color:lavender;">
+                <div class="jumbotron col-sm-6" style="background-color:#C3C83D;">
                     <div>
                         <h1>Register</h1>
                     </div>
@@ -58,14 +58,16 @@
         <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
         <script>
             // Initialize Firebase
-            var config = {
-                apiKey: "AIzaSyB33rrdt-t4S0qBbDpCI-BsH-I-rsLViX0",
-                authDomain: "happy-help-desk.firebaseapp.com",
-                databaseURL: "https://happy-help-desk.firebaseio.com",
-                projectId: "happy-help-desk",
-                storageBucket: "",
-                messagingSenderId: "685802855804"
-            };
+            var firebaseConfig = {
+    apiKey: "AIzaSyD1RAs6U-rk3FrVogJ_2PeZ-ThBRbtz5XQ",
+    authDomain: "ticket-fault-reporting.firebaseapp.com",
+    databaseURL: "https://ticket-fault-reporting.firebaseio.com",
+    projectId: "ticket-fault-reporting",
+    storageBucket: "ticket-fault-reporting.appspot.com",
+    messagingSenderId: "265469718318",
+    appId: "1:265469718318:web:b2e8929b7c136483dc14bf",
+    measurementId: "G-2MZEVT6KM8"
+  };
             firebase.initializeApp(config);
         </script>
     <script src="http://chancejs.com/chance.min.js"></script>
